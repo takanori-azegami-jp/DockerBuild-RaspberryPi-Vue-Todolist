@@ -1,24 +1,38 @@
-# todo-list
+# vue-todolist
+VuejsでTODOリストを作成する
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Vue環境構築コマンド
+- Docker
+```bash
+# Docker-composeビルド
+$ docker-compose up -d
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+- Vueプロジェクト
+```bash
+# VueCliインストール
+$ npm install -g @vue/cli
+
+# Vueプロジェクトを作成
+$ cd app
+$ vue create todo-list
+
+# 下記を選択する
+❯ Default ([Vue 3] babel, eslint)
+
+# プロジェクト作成完了後
+「./app/todo-list/src」に「./src」の中身をコピーする
+
+# Vueプロジェクト起動
+$ cd todo-list
+$ npm run serve
 ```
 
-### Lints and fixes files
-```
-npm run lint
+## ブラウザからのアクセス方法
+```js
+http://[ホストPCのipアドレス]:8080
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 参考サイト
+- [Docker+VuejsでTODOリストを作る](https://alterbo.jp/blog/ryu5-2106/)
+- [Vue.jsでTodoアプリを作ってみよう](https://note.com/kenpapa/n/n948005f6da63)
