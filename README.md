@@ -32,13 +32,13 @@ module.exports = {
   publicPath: './'
 }
 ```
-ビルド
+ビルドで`docs`に生成
 ```bash
 $ npm run serve
 ```
-
-
+GitHubにアップしたら、SettingsからPagesを選びbranchはmain、folderはdocsを選んで保存
 
 ## 参考サイト
 - [Docker+VuejsでTODOリストを作る](https://alterbo.jp/blog/ryu5-2106/)
 - [Vue.jsでTodoアプリを作ってみよう](https://note.com/kenpapa/n/n948005f6da63)
+- [VueプロジェクトをGitHub Pagesに公開](https://qiita.com/sindicum/items/f867db9de54630464fea)
