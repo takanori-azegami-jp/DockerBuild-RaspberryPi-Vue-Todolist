@@ -39,6 +39,9 @@ $ npm run serve
 GitHubにアップしたら、SettingsのPagesでbranchはmain、folderはdocsを選んで保存
 ![](imgs/2023-05-06-02-33-21.png)
 
+## GitHub Pagesの下記URLで公開
+https://takanori-azegami-jp.github.io/vue-todolist/
+
 ## 参考サイト
 - [Docker+VuejsでTODOリストを作る](https://alterbo.jp/blog/ryu5-2106/)
 - [Vue.jsでTodoアプリを作ってみよう](https://note.com/kenpapa/n/n948005f6da63)
