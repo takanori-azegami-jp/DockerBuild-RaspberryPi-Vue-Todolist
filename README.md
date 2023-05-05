@@ -36,7 +36,8 @@ module.exports = {
 ```bash
 $ npm run serve
 ```
-GitHubにアップしたら、SettingsからPagesを選びbranchはmain、folderはdocsを選んで保存
+GitHubにアップしたら、SettingsのPagesでbranchはmain、folderはdocsを選んで保存
+
 
 ## 参考サイト
 - [Docker+VuejsでTODOリストを作る](https://alterbo.jp/blog/ryu5-2106/)
