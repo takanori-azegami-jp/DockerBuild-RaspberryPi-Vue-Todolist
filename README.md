@@ -1,5 +1,5 @@
-# docker-rpi-vue-todolist
-RaspberryPi(64bit)にDockerでVuejsでTODOリストを作成する
+# vue-todolist
+VuejsでTODOリストを作成する
 
 ## 環境
 - kernel：Linux ホスト名 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
@@ -9,12 +9,6 @@ RaspberryPi(64bit)にDockerでVuejsでTODOリストを作成する
 ```bash
 # Docker-composeビルド
 $ docker-compose up -d
-
-# Docker コンテナ確認
-$ docker ps
-
-# Docker コンテナの中に入る
-$ docker exec -it [コンテナID] bash
 
 # Vueプロジェクトを作成
 $ vue create todo-list
